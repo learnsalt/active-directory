@@ -408,6 +408,6 @@ if_existed_show_var_log_sssd_sssd_nss.log:
 {% endif %}
 
 
-# do a ldapsearch to see if this host is AD domain
+# do a ldapsearch to see if this host is in AD domain
 include:
-    - .computer-test
+    - .get-computer
